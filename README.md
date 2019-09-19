@@ -39,7 +39,7 @@
       PYCURL_SSL_LIBRARY=nss
       pip install --no-cache-dir --compile --ignore-installed --install-option="--with-nss" pycurl
       ```
-   И, вуаля:
+    И, вуаля:
       ```
       >>> pycurl.version
       'PycURL/7.43.0.3 libcurl/7.61.1 NSS/3.36 zlib/1.2.7 libssh2/1.4.3'
